@@ -1,4 +1,5 @@
 files:
+  # From template-base
   - .github/workflows/stale-prs.yml
   - .github/ISSUE_TEMPLATE/bug_report.yml
   - .github/ISSUE_TEMPLATE/feature_request.yml
@@ -9,3 +10,8 @@ files:
   - LICENSE
   - cog.toml
   - cliff.toml
+  # Docker-specific
+  - .github/workflows/ci.yml
+  - .github/workflows/release.yml
+  - .github/workflows/template-sync.yml
+  - .github/dependabot.yml
