@@ -8,9 +8,7 @@
 
 ## How to test
 
-- [ ] `docker build .`
-- [ ] `helm lint chart/`
-- [ ] `helm template test chart/`
+- [ ] Tests pass
 - [ ] Tested manually
 
 ## Commit type
